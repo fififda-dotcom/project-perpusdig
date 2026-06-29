@@ -16,6 +16,23 @@ class BukuModel extends Model
         'penerbit',
         'tahun',
         'stok',
-        'rak_id'
+        'rak_id',
+        'foto',
+        'nomor_panggil',
+        'nomor_klasifikasi',
+        'isbn',
+        'dimensi_buku',
+        'departemen',
+        'cover',
+        'jenis_koleksi',
+        'file_pdf',
+        'jumlah_halaman',
+        'sinopsis',
+        'edisi',
+        'bahasa',
+        'tempat_terbit',
+        'deskripsi_fisik',
+        'catatan',
+        'dibaca_count'
     ];
 }

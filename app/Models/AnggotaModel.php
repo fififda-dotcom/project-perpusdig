@@ -13,6 +13,9 @@ class AnggotaModel extends Model
         'kode_anggota',
         'nama',
         'nomor',
-        'gmail'
+        'gmail',
+        'username',
+        'password',
+        'foto'
     ];
 }

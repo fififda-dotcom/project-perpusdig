@@ -12,7 +12,9 @@ class Riwayat extends BaseController
             SELECT
                 peminjaman.*,
                 anggota.nama,
-                buku.judul
+                buku.judul,
+                buku.foto,
+                buku.cover
             FROM peminjaman
             JOIN anggota
             ON anggota.id = peminjaman.anggota_id
